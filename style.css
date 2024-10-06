@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* container that contains every section of page */
+.wrap_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* box for login section */
+.login_box {
+
+    margin-top: 20px;
+    width: 350px;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 40px;
+    padding-bottom: 0;
+}
+
+.login_box img {
+    width: 175px;
+    height: 61px;
+    display: block;
+    margin: auto;
+}
+
+/* separate box for all inputs */
+.input_box {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.input_box .userInput {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 0.5px solid #d2d2d7;
+    background-color: rgb(250, 250, 250);
+    font-size: 12px;
+}
+
+.input_box .btn {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #4cb5f9;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.input_box .userInput:focus {
+    outline: none;
+    /* border: none; */
+}
+
+/* individual box for border like line */
+.line_box {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    margin-top: 15px;
+
+}
+
+.line_box .line {
+    height: 0;
+    width: 100%;
+    margin-top: 18px;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.line_box .or {
+    font-size: 12px;
+    margin-top: 13px;
+}
+
+/* box that contains links for login to facebook and forget password */
+.link_forget_pass {
+    text-align: center;
+    padding: 30px;
+}
+
+/* separate box for login facebook */
+.facebook {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.facebook .bx {
+    font-size: 22px;
+    color: #384b7c;
+}
+
+.facebook a {
+    color: #3e5276;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.link_forget_pass .passcode {
+    font-size: 12px;
+    color: #3e5276;
+    font-weight: 550;
+
+}
+
+/* a box for sign up section */
+.sign_up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid rgb(219, 219, 219);
+    width: 350px;
+    height: 63px;
+    padding: 20px;
+}
+
+.sign_up p {
+    font-size: 13px;
+}
+
+.sign_up a {
+    color: #509cda;
+    font-weight: 550;
+}
